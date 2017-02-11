@@ -1,0 +1,93 @@
+{
+    "all": {
+        "_comment": "List all available (installed) themes and plugins here. This is not needed for the assistant plugin, but to have all options for this config file at one place.",
+        "themes": [ "twentyfifteen", "alizee", "workfree" ],
+        "plugins": [ "google-sitemap-generator", "hello-dolly", "imagelightbox", "contact-form-7", "wordpress-seo" ]
+    },
+    
+    "any": {
+        "_comment": "Add themes and plugins here, to show them for every website type.",
+        "themes": [ "cubic", "dispatch", "lens", "receptar" ],
+        "recommended_plugins": [],
+        "more_plugins": [],
+        "category_plugins": [
+            {
+                "headline": "msgid_cat_1_headline",
+                "subline": "msgid_cat_1_subline",
+                "plugins": [ "wordpress-seo" ]
+            }
+        ]
+    },
+    
+    "gallery": {
+        "_comment": "Add themes and plugins here, to show them for galleries.",
+        "themes": [ "alizee", "responsive", "sparkling" ],
+        "recommended_plugins": [ "imagelightbox" ],
+        "more_plugins": [ "contact-form-7" ],
+        "category_plugins": [
+            {
+                "headline": "msgid_cat_2_headline",
+                "subline": "msgid_cat_2_subline",
+                "plugins": [ "hello-dolly" ]
+            }
+        ]
+    },
+    
+    "blog": {
+        "_comment": "Add themes and plugins here, to show them for blogs.",
+        "themes": [ "workfree" ],
+        "recommended_plugins": [ "imagelightbox" ],
+        "more_plugins": [ "wordpress-seo" ],
+        "category_plugins": [
+            {
+                "headline": "msgid_cat_1_headline",
+                "subline": "msgid_cat_1_subline",
+                "plugins": [ "contact-form-7" ]
+            },
+            {
+                "headline": "msgid_cat_2_headline",
+                "subline": "msgid_cat_2_subline",
+                "plugins": [ "hello-dolly" ]
+            }
+        ]
+    },
+    
+    "personal": {
+        "_comment": "Add themes and plugins here, to show them for personal websites.",
+        "themes": [],
+        "recommended_plugins": [ "imagelightbox" ],
+        "more_plugins": [ "wordpress-seo" ],
+        "category_plugins": [
+            {
+                "headline": "msgid_cat_1_headline",
+                "subline": "msgid_cat_1_subline",
+                "plugins": [ "contact-form-7" ]
+            },
+            {
+                "headline": "msgid_cat_2_headline",
+                "subline": "msgid_cat_2_subline",
+                "plugins": [ "hello-dolly" ]
+            }
+        ]
+    },
+    
+    "business": {
+        "_comment": "Add themes and plugins here, to show them for business websites.",
+        "themes": [],
+        "recommended_plugins": [ "imagelightbox" ],
+        "more_plugins": [ "wordpress-seo" ],
+        "category_plugins": [
+            {
+                "headline": "msgid_cat_1_headline",
+                "subline": "msgid_cat_1_subline",
+                "plugins": [ "contact-form-7" ]
+            },
+            {
+                "headline": "msgid_cat_2_headline",
+                "subline": "msgid_cat_2_subline",
+                "plugins": [ "hello-dolly" ]
+            }
+        ]
+    }
+    
+}
