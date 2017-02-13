@@ -1,0 +1,14 @@
+@mixin max-screen ($width) {
+  @media screen and (max-width: $width + "px") { @content; }
+}
+
+@mixin min-screen ($width) {
+  @media screen and (min-width: $width + "px") { @content; }
+}
+
+@mixin content-div {
+  margin: 0 auto !important;
+  @include min-screen ($large-devices) {
+    width: 1000px;
+  }
+}

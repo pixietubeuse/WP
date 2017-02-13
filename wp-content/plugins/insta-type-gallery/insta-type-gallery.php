@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 Plugin Name: Insta Type Gallery 
 Plugin URI: http://awplife.com/
 Description:  Insta type gallery plugin with lightbox preview for Wordpress
-Version: 0.0.2
+Version: 0.0.6
 Author: A WP Life
 Author URI: http://awplife.com/
 License: GPLv2 or later

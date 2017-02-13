@@ -1,0 +1,4 @@
+#pixie-front-page .content {
+  @include content-div;
+  @include clearfix;
+}

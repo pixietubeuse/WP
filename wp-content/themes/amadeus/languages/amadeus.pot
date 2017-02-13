@@ -1,14 +1,14 @@
-# Copyright (C) 2016 Themeisle
+# Copyright (C) 2017 Themeisle
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Amadeus 2.0.1\n"
+"Project-Id-Version: Amadeus 2.0.2\n"
 "Report-Msgid-Bugs-To: https://github.com/Codeinwp/amadeus/issues\n"
-"POT-Creation-Date: 2016-12-14 12:39:39+00:00\n"
+"POT-Creation-Date: 2017-01-03 09:08:48+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Themeisle Translate Team <friends@themeisle.com>\n"
 "Language-Team: Themeisle Translate <friends@themeisle.com>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -34,29 +34,29 @@ msgid ""
 "links below or a search?"
 msgstr ""
 
-#: class-tgm-plugin-activation.php:333 functions.php:246
+#: class-tgm-plugin-activation.php:333 functions.php:241
 msgid "Install Required Plugins"
 msgstr ""
 
-#: class-tgm-plugin-activation.php:334 functions.php:247
+#: class-tgm-plugin-activation.php:334 functions.php:242
 msgid "Install Plugins"
 msgstr ""
 
-#: class-tgm-plugin-activation.php:335 functions.php:248
+#: class-tgm-plugin-activation.php:335 functions.php:243
 msgid "Installing Plugin: %s"
 msgstr ""
 
-#: class-tgm-plugin-activation.php:336 functions.php:249
+#: class-tgm-plugin-activation.php:336 functions.php:244
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: class-tgm-plugin-activation.php:337 functions.php:250
+#: class-tgm-plugin-activation.php:337 functions.php:245
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:342 functions.php:251
+#: class-tgm-plugin-activation.php:342 functions.php:246
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
@@ -72,7 +72,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:352 functions.php:256
+#: class-tgm-plugin-activation.php:352 functions.php:251
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -98,13 +98,13 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:367 functions.php:253
+#: class-tgm-plugin-activation.php:367 functions.php:248
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:372 functions.php:254
+#: class-tgm-plugin-activation.php:372 functions.php:249
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -120,7 +120,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:382 functions.php:258
+#: class-tgm-plugin-activation.php:382 functions.php:253
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
@@ -132,13 +132,13 @@ msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:392 functions.php:259
+#: class-tgm-plugin-activation.php:392 functions.php:254
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: class-tgm-plugin-activation.php:397 functions.php:260
+#: class-tgm-plugin-activation.php:397 functions.php:255
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -147,7 +147,7 @@ msgid "Return to the dashboard"
 msgstr ""
 
 #: class-tgm-plugin-activation.php:399 class-tgm-plugin-activation.php:3029
-#: functions.php:261
+#: functions.php:256
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -459,31 +459,31 @@ msgstr ""
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: functions.php:53
+#: functions.php:54
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:54
+#: functions.php:55
 msgid "Social"
 msgstr ""
 
-#: functions.php:109
+#: functions.php:110
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:118
+#: functions.php:119
 msgid "Footer left"
 msgstr ""
 
-#: functions.php:126
+#: functions.php:127
 msgid "Footer center"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:135
 msgid "Footer right"
 msgstr ""
 
-#: functions.php:252
+#: functions.php:247
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -495,7 +495,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: functions.php:255
+#: functions.php:250
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
 "plugin. Contact the administrator of this site for help on getting the "
@@ -507,7 +507,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: functions.php:257
+#: functions.php:252
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
 "Contact the administrator of this site for help on getting the plugin "
@@ -519,19 +519,19 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: functions.php:262
+#: functions.php:257
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
-#: functions.php:287
+#: functions.php:282
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: functions.php:288
+#: functions.php:283
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: functions.php:291
+#: functions.php:286
 msgid "Theme: %2$s by %1$s."
 msgstr ""
 
@@ -603,11 +603,11 @@ msgstr ""
 msgid "This option applies only if you are using a logo"
 msgstr ""
 
-#: inc/customizer.php:141 inc/customizer.php:995
+#: inc/customizer.php:141 inc/customizer.php:1002
 msgid "Only logo"
 msgstr ""
 
-#: inc/customizer.php:142 inc/customizer.php:996
+#: inc/customizer.php:142 inc/customizer.php:1003
 msgid "Logo plus site title&amp;description"
 msgstr ""
 
@@ -625,11 +625,11 @@ msgstr ""
 msgid "Menu position"
 msgstr ""
 
-#: inc/customizer.php:192 inc/customizer.php:1014
+#: inc/customizer.php:192 inc/customizer.php:1021
 msgid "Above site title/description"
 msgstr ""
 
-#: inc/customizer.php:193 inc/customizer.php:1015
+#: inc/customizer.php:193 inc/customizer.php:1022
 msgid "Below site title/description"
 msgstr ""
 
@@ -637,15 +637,15 @@ msgstr ""
 msgid "Banner type"
 msgstr ""
 
-#: inc/customizer.php:223 inc/customizer.php:1033
+#: inc/customizer.php:223 inc/customizer.php:1040
 msgid "Header image"
 msgstr ""
 
-#: inc/customizer.php:224 inc/customizer.php:1034
-msgid "MetaSlider (requires the MetaSlider plugin)"
+#: inc/customizer.php:224 inc/customizer.php:1041
+msgid "Nivo Slider (requires the Nivo Slider plugin)"
 msgstr ""
 
-#: inc/customizer.php:225 inc/customizer.php:1035
+#: inc/customizer.php:225 inc/customizer.php:1042
 msgid "Nothing"
 msgstr ""
 
@@ -653,170 +653,174 @@ msgstr ""
 msgid "Show the banner only on the homepage?"
 msgstr ""
 
-#: inc/customizer.php:257
-msgid "MetaSlider shortcode"
+#: inc/customizer.php:255
+msgid "Add the shortcode for the Nivo Slider plugin here"
 msgstr ""
 
 #: inc/customizer.php:258
-msgid "Add the shortcode for the MetaSlider plugin here"
+msgid "Add the shortcode for the %s plugin here"
 msgstr ""
 
-#: inc/customizer.php:277
+#: inc/customizer.php:264
+msgid "Nivo Slider shortcode"
+msgstr ""
+
+#: inc/customizer.php:284
 msgid "Header image height"
 msgstr ""
 
-#: inc/customizer.php:296
+#: inc/customizer.php:303
 msgid "Header image height < 1024px"
 msgstr ""
 
-#: inc/customizer.php:297
+#: inc/customizer.php:304
 msgid "Set your header image height for screen widths smaller than 1024px"
 msgstr ""
 
-#: inc/customizer.php:316
+#: inc/customizer.php:323
 msgid "Hide the animated scroll arrow from the header image?"
 msgstr ""
 
-#: inc/customizer.php:326
+#: inc/customizer.php:333
 msgid "Blog options"
 msgstr ""
 
-#: inc/customizer.php:342
+#: inc/customizer.php:349
 msgid "Excerpt length"
 msgstr ""
 
-#: inc/customizer.php:343
+#: inc/customizer.php:350
 msgid "Choose your excerpt length. Default: 55 words"
 msgstr ""
 
-#: inc/customizer.php:362
+#: inc/customizer.php:369
 msgid "Hide date/author/archives on index?"
 msgstr ""
 
-#: inc/customizer.php:378
+#: inc/customizer.php:385
 msgid "Hide date/author/archives on single posts?"
 msgstr ""
 
-#: inc/customizer.php:394
+#: inc/customizer.php:401
 msgid "Hide the sidebar on index?"
 msgstr ""
 
-#: inc/customizer.php:410
+#: inc/customizer.php:417
 msgid "Hide the sidebar on single posts and pages?"
 msgstr ""
 
-#: inc/customizer.php:427
+#: inc/customizer.php:434
 msgid "Display the full content of your posts on index?"
 msgstr ""
 
-#: inc/customizer.php:443
+#: inc/customizer.php:450
 msgid "Hide featured images on index, archives?"
 msgstr ""
 
-#: inc/customizer.php:459
+#: inc/customizer.php:466
 msgid "Hide featured images on single posts?"
 msgstr ""
 
-#: inc/customizer.php:479
+#: inc/customizer.php:486
 msgid "Primary color"
 msgstr ""
 
-#: inc/customizer.php:501
+#: inc/customizer.php:508
 msgid "Social area background"
 msgstr ""
 
-#: inc/customizer.php:521
+#: inc/customizer.php:528
 msgid "Social icons"
 msgstr ""
 
-#: inc/customizer.php:542
+#: inc/customizer.php:549
 msgid "Branding background"
 msgstr ""
 
-#: inc/customizer.php:563
+#: inc/customizer.php:570
 msgid "Menu background"
 msgstr ""
 
-#: inc/customizer.php:584
+#: inc/customizer.php:591
 msgid "Menu items"
 msgstr ""
 
-#: inc/customizer.php:605 inc/customizer.php:804
+#: inc/customizer.php:612 inc/customizer.php:811
 msgid "Site title"
 msgstr ""
 
-#: inc/customizer.php:626 inc/customizer.php:824
+#: inc/customizer.php:633 inc/customizer.php:831
 msgid "Site description"
 msgstr ""
 
-#: inc/customizer.php:646
+#: inc/customizer.php:653
 msgid "Entry titles"
 msgstr ""
 
-#: inc/customizer.php:666
+#: inc/customizer.php:673
 msgid "Entry meta"
 msgstr ""
 
-#: inc/customizer.php:686
+#: inc/customizer.php:693
 msgid "Body text"
 msgstr ""
 
-#: inc/customizer.php:707
+#: inc/customizer.php:714
 msgid "Footer background"
 msgstr ""
 
-#: inc/customizer.php:718
+#: inc/customizer.php:725
 msgid "Fonts"
 msgstr ""
 
-#: inc/customizer.php:720
+#: inc/customizer.php:727
 msgid ""
 "You can use any Google Fonts you want for the heading and/or body. See the "
 "fonts here: google.com/fonts. See the documentation if you need help with "
 "this: flyfreemedia.com/documentation/amadeus"
 msgstr ""
 
-#: inc/customizer.php:734
+#: inc/customizer.php:741
 msgid "Body font name/style/sets"
 msgstr ""
 
-#: inc/customizer.php:751
+#: inc/customizer.php:758
 msgid "Body font family"
 msgstr ""
 
-#: inc/customizer.php:768
+#: inc/customizer.php:775
 msgid "Headings font name/style/sets"
 msgstr ""
 
-#: inc/customizer.php:785
+#: inc/customizer.php:792
 msgid "Headings font family"
 msgstr ""
 
-#: inc/customizer.php:844
+#: inc/customizer.php:851
 msgid "H1 font size"
 msgstr ""
 
-#: inc/customizer.php:864
+#: inc/customizer.php:871
 msgid "H2 font size"
 msgstr ""
 
-#: inc/customizer.php:884
+#: inc/customizer.php:891
 msgid "H3 font size"
 msgstr ""
 
-#: inc/customizer.php:904
+#: inc/customizer.php:911
 msgid "H4 font size"
 msgstr ""
 
-#: inc/customizer.php:924
+#: inc/customizer.php:931
 msgid "H5 font size"
 msgstr ""
 
-#: inc/customizer.php:944
+#: inc/customizer.php:951
 msgid "H6 font size"
 msgstr ""
 
-#: inc/customizer.php:964
+#: inc/customizer.php:971
 msgid "Body font size"
 msgstr ""
 
@@ -902,19 +906,19 @@ msgstr ""
 msgid "Amadeus: About me"
 msgstr ""
 
-#: widgets/about-me.php:77 widgets/recent-comments.php:133
+#: widgets/about-me.php:91 widgets/recent-comments.php:145
 msgid "Title:"
 msgstr ""
 
-#: widgets/about-me.php:80
+#: widgets/about-me.php:94
 msgid "Enter the URL for your photo"
 msgstr ""
 
-#: widgets/about-me.php:83
+#: widgets/about-me.php:97
 msgid "Add your text:"
 msgstr ""
 
-#: widgets/about-me.php:87
+#: widgets/about-me.php:101
 msgid "Automatically add paragraphs"
 msgstr ""
 
@@ -930,12 +934,12 @@ msgstr ""
 msgid "Recent Comments"
 msgstr ""
 
-#: widgets/recent-comments.php:83
+#: widgets/recent-comments.php:94
 #. translators: comments widget: 1: comment author, 2: post link
 msgid "%1$s on %2$s"
 msgstr ""
 
-#: widgets/recent-comments.php:136
+#: widgets/recent-comments.php:148
 msgid "Number of comments to show:"
 msgstr ""
 

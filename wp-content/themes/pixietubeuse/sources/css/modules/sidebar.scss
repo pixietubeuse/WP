@@ -1,0 +1,6 @@
+#pixie-sidebar {
+  @include min-screen($large-devices){
+    float: left;
+    width: 250px;
+  }
+}

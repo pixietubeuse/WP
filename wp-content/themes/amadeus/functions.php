@@ -223,12 +223,6 @@ function amadeus_register_required_plugins() {
 		),
 
 		array(
-			'name'      => 'Intergeo Maps - Google Maps Plugin',
-			'slug'      => 'intergeo-maps',
-			'required'  => false,
-		),
-
-		array(
 			'name'     => 'Pirate Forms',
 			'slug' 	   => 'pirate-forms',
 			'required' => false,

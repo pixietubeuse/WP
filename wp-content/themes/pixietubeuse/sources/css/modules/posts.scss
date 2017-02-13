@@ -1,0 +1,6 @@
+.posts-list {
+  @include min-screen($large-devices) {
+    float: left;
+    width: 750px;
+  }
+}

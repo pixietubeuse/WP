@@ -1,4 +1,8 @@
 
+### 2.0.3 - 01/02/2017
+**Changes:** 
+- Update fontawesome
+
 ### 2.0.2 - 22/12/2016
 **Changes:** 
 - Fix typo in page_fullwidth.php
