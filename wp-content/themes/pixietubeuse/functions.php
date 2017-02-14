@@ -35,3 +35,12 @@ add_theme_support( 'post-formats', array(
 
 // add post thumbnail
 add_theme_support( 'post-thumbnails' );
+
+// add custom header
+add_theme_support( 'custom-header' );
+
+// Change text of the read more link
+function modify_read_more_link() {
+    return '<a class="more-link" href="' . get_permalink() . '">Lire la suite</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );

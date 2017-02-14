@@ -1,7 +1,13 @@
 header {
-  background-color: $blue-dark;
+  background-color: #142B4D;
 }
 
 header .content {
   @include content-div;
+}
+
+#header-custom-image {
+  display: block;
+  width: 100%;
+  height: auto;
 }

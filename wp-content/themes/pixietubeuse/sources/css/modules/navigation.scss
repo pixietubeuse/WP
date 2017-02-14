@@ -1,3 +1,37 @@
+nav {
+  margin-bottom: 20px;
+  border-width: 0px 0px 3px 0px;
+  border-style: dotted;
+  border-color: $pink-dark;
+}
+
 nav .content {
   @include content-div;
+}
+
+nav .menu {
+  margin: 0;
+  padding: 15px 0px;
+  @include clearfix;
+}
+
+nav .menu .menu-item {
+  padding-right: 30px;
+  float: left;
+  list-style: none;
+  font-family: $font-satisfy;
+  font-size: 24px;
+  color: $blue-dark;
+  background-image: url("images/menu_bg.svg");
+  background-size: 100% 40px;
+  background-repeat: no-repeat;
+}
+
+nav .menu .menu-item a {
+  color: $blue-dark;
+  text-decoration: none;
+}
+
+nav .sub-menu {
+  display: none;
 }

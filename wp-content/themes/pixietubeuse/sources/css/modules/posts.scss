@@ -4,3 +4,61 @@
     width: 750px;
   }
 }
+
+.post-preview {
+  border-radius: 3px;
+  border-color: $blue-dark;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.post-preview-image {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.post-preview-image img {
+  position: relative;
+  top: -25%;
+  width: 100%;
+  height: auto;
+}
+
+.post-preview-resume {
+  padding: 10px 15px;
+}
+
+.post-preview-resume h2 {
+  margin: 0;
+  font-family: $font-satisfy;
+  font-size: 32px;
+  color: $blue-dark;
+  text-align: center;
+}
+
+.post-preview a.more-link {
+  text-decoration: none;
+}
+
+.post-preview a.more-link {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  content: "Lire la suite";
+  padding: 5px 20px;
+  font-family: $font-satisfy;
+  font-size: 22px;
+  text-align: center;
+  color: $blue-dark;
+  background-color: $blue-light;
+  border-radius: 3px;
+}
+
+.post-preview-date-parution {
+  font-family: 'Calibri', 'Arial';
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  color: $pink-light;
+}
