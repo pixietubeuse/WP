@@ -7,11 +7,13 @@ nav {
 
 nav .content {
   @include content-div;
+  @include clearfix;
 }
 
 nav .menu {
   margin: 0;
   padding: 15px 0px;
+  float: left;
   @include clearfix;
 }
 

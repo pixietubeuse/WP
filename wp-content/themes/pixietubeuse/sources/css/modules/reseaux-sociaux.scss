@@ -1,0 +1,17 @@
+[id ^= menu-reseaux-sociaux] ul {
+  margin: 0;
+  padding: 0;
+}
+
+[id ^= menu-reseaux-sociaux] li {
+  margin-right: 10px;
+  padding-right: 0px !important;
+  display: inline-block;
+  list-style: none;
+  background-image: none !important;
+}
+
+[id ^= menu-reseaux-sociaux] img {
+  margin-top: 5px;
+  height: 25px;
+}

@@ -2,13 +2,14 @@
 @import "bourbon/_bourbon";
 @import "mixins/_mixins";
 
-@import "initialisation/template";
 @import "initialisation/variables";
+@import "initialisation/template";
 
 @import "modules/header";
 @import "modules/navigation";
 @import "modules/sidebar";
 @import "modules/posts";
 @import "modules/footer";
+@import "modules/reseaux-sociaux";
 
 @import "pages/front-page";
