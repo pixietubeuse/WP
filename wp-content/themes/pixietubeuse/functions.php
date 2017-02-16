@@ -2,6 +2,11 @@
 // get css files
 wp_enqueue_style( 'style', get_stylesheet_uri());
 
+// get script files
+wp_enqueue_script('jquery');
+wp_register_script('application-global', get_template_directory_uri() . "/js/application-global.js");
+wp_enqueue_script('application-global');
+
 // get menu
 function register_menu() {
     register_nav_menus(

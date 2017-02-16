@@ -24,6 +24,7 @@ gulp.task('js', function() {
     return gulp.src(source + '/js/*.js')
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.uglify())
+        .pipe(plugins.concat('application-global.js'))
         .pipe(plugins.sourcemaps.write('.map'))
         .pipe(gulp.dest(destination + '/js'));
 });
