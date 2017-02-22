@@ -1,6 +1,70 @@
 #pixie-sidebar {
+  padding: 7px 10px;
+  background-color: $blue-light;
+  border-radius: 3px;
   @include min-screen($large-devices){
     float: left;
-    width: 250px;
+    width: 230px;
+    margin-right: 20px;
   }
+}
+
+#bienvenue .bienvenue-image {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#bienvenue h2 {
+  font-family: $font-satisfy;
+  font-size: 22px;
+  text-align: center;
+}
+
+#bienvenue .bienvenue-signature {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#pixie-sidebar .items {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: $white;
+  border-radius: 3px;
+}
+
+#pixie-sidebar .contact-information,
+#pixie-sidebar .presentation-information {
+  float: left;
+  width: 50%;
+}
+
+#pixie-sidebar .more-informations {
+  padding: 30px 0 0 0;
+}
+
+#pixie-sidebar .more-informations:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+#pixie-sidebar .contact-information a,
+#pixie-sidebar .presentation-information a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: $pink-light;
+}
+
+#pixie-sidebar .contact-information a:hover,
+#pixie-sidebar .presentation-information a:hover {
+  color: $pink-dark;
+}
+
+#pixie-sidebar .contact-information img,
+#pixie-sidebar .presentation-information img {
+  width: 40px;
 }

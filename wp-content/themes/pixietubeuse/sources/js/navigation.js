@@ -1,8 +1,16 @@
-jQuery(document).ready(function(){
-    jQuery('.menu-item').on('mouseenter', function(){
-        jQuery(this).find('.sub-menu').slideDown('slow');
+jQuery(document).ready(function($) {
+    //------------------------------------------------------------------------------------------------------------------
+    // menu de navigation
+    //------------------------------------------------------------------------------------------------------------------
+    $('.menu-item').on('mouseenter', function(){
+        $(this).find('.sub-menu').stop( true, true ).slideDown('slow');
     });
-    jQuery('.menu-item').on('mouseleave', function(){
-        jQuery(this).find('.sub-menu').slideUp('slow');
+    $('.menu-item').on('mouseleave', function(){
+        $(this).find('.sub-menu').stop( true, true ).slideUp('slow');
     });
+
+    //placement du sous-menu
+    var menuPosition = $('nav .content').position();
+    $('nav .sub-menu').css({left: menuPosition.left});
+    //------------------------------------------------------------------------------------------------------------------
 });

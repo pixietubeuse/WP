@@ -1,11 +1,14 @@
 <?php
-// get css files
-wp_enqueue_style( 'style', get_stylesheet_uri());
+// if not in the admin call the styles and scripts for pixietubeuse template
+if(!is_admin()){
+    // get css files
+    wp_enqueue_style( 'style', get_stylesheet_uri());
 
-// get script files
-wp_enqueue_script('jquery');
-wp_register_script('application-global', get_template_directory_uri() . "/js/application-global.js");
-wp_enqueue_script('application-global');
+    // get script files
+    wp_enqueue_script('jquery');
+    wp_register_script('application-global', get_template_directory_uri() . "/js/application-global.js");
+    wp_enqueue_script('application-global');
+}
 
 // get menu
 function register_menu() {
