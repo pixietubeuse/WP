@@ -10,7 +10,10 @@ jQuery(document).ready(function($) {
     });
 
     //placement du sous-menu
-    var menuPosition = $('nav .content').position();
-    $('nav .sub-menu').css({left: menuPosition.left});
+    //var menuPosition = $('nav .content').position();
+    var navigationWidth = $('nav').width();
+    var navigationContentWidth = $('nav .content').width();
+    var menuPosition = (navigationWidth - navigationContentWidth) / 2;
+    $('nav .sub-menu').css({left: menuPosition});
     //------------------------------------------------------------------------------------------------------------------
 });

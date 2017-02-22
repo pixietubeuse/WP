@@ -8,6 +8,8 @@ if(!is_admin()){
     wp_enqueue_script('jquery');
     wp_register_script('application-global', get_template_directory_uri() . "/js/application-global.js");
     wp_enqueue_script('application-global');
+    wp_register_script('youtube', "https://apis.google.com/js/platform.js");
+    wp_enqueue_script('youtube');
 }
 
 // get menu
