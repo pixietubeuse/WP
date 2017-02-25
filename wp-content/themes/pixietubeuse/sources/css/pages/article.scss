@@ -1,0 +1,48 @@
+#pixie-single .article-detail {
+  margin: 30px 0;
+}
+
+#pixie-single .article-detail h2 {
+  margin: 0;
+  font-family: $font-satisfy;
+  font-size: $font-size-title;
+  text-align: center;
+}
+
+#pixie-single .article-detail .article-date-parution {
+  font-style: italic;
+  text-align: center;
+  color: $pink-light;
+}
+
+#pixie-single .article-detail .article-image {
+  padding: 30px 0;
+}
+
+#pixie-single .article-detail .article-image img {
+  width: 100%;
+  height: auto;
+}
+
+#pixie-single .article-partage {
+  margin: 60px 0;
+}
+
+#pixie-single .article-partage:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#pixie-single .article-partage .center-partage {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
+
+#pixie-single .article-partage .texte-partage {
+  float: left;
+  font-family: $font-satisfy;
+  font-size: $font-size-title;
+  color: $pink-light;
+}

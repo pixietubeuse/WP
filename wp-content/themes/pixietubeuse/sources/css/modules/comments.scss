@@ -1,0 +1,262 @@
+#pixie-comments .write-comment {
+  padding: 30px 0;
+  background-color: $blue-light;
+}
+
+#pixie-comments .write-comment h3 {
+  margin: 0 0 30px 0;
+  font-family: $font-satisfy;
+  font-size: $font-size-title;
+  color: $pink-dark;
+}
+
+#pixie-comments .write-comment h3#reply-title a {
+  color: $pink-light;
+  text-decoration: none;
+}
+
+#pixie-comments .write-comment h3#reply-title small a{
+  float: right;
+  margin-right: 60px;
+  font-family: 'Calibri', 'Arial';
+  font-size: 16px;
+  text-decoration: none;
+  color: $pink-dark;
+}
+
+#pixie-comments .write-comment label {
+  display: inline-block;
+  width: 150px;
+  font-family: 'Calibri', 'Arial';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+#pixie-comments .write-comment input,
+#pixie-comments .write-comment textarea {
+  font-family: 'Calibri', 'Arial';
+  font-size: 16px;
+  border-width: 0px;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+#pixie-comments .write-comment input:focus,
+#pixie-comments .write-comment textarea:focus {
+  outline: none;
+}
+
+#pixie-comments .write-comment .comment-form-author,
+#pixie-comments .write-comment .comment-form-email {
+  display: inline-block;
+  width: 49%;
+}
+
+#pixie-comments .write-comment .comment-form-author,
+#pixie-comments .write-comment .comment-form-email,
+#pixie-comments .write-comment .comment-form-comment {
+  margin-bottom: 20px;
+}
+
+#pixie-comments .write-comment .form-submit {
+  padding-left: 150px;
+}
+
+#pixie-comments .write-comment .comment-form-author input,
+#pixie-comments .write-comment .comment-form-email input {
+  width: 280px;
+  margin-left: -2px;
+}
+
+#pixie-comments .write-comment .comment-form-comment textarea {
+  width: 775px;
+  height: 50px;
+}
+
+#pixie-comments .write-comment .form-submit input {
+  width: 795px;
+  padding: 0px 10px;
+  font-family: $font-satisfy;
+  font-size: 22px;
+  color: $white;
+  background-color: $pink-dark;
+  cursor: pointer;
+}
+
+#pixie-comments .write-comment .logged-in-as {
+  margin-bottom: 30px;
+  @include clearfix;
+}
+
+#pixie-comments .write-comment .logged-in-as .link-identity {
+  color: $pink-dark-transparency;
+  font-family: $font-satisfy;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#pixie-comments .write-comment .logged-in-as .link-deconnexion {
+  float: right;
+  margin-right: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $pink-dark;
+}
+
+#pixie-comments .read-comments {
+  margin: 30px 0;
+}
+
+#pixie-comments .read-comments .texte-comments {
+  font-family: $font-satisfy;
+  font-size: $font-size-title;
+  color: $pink-light;
+}
+
+#pixie-comments .read-comments ul {
+  margin: 0;
+  padding: 0;
+}
+
+#pixie-comments .read-comments li {
+  margin-top: 20px;
+  list-style: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $blue-dark;
+  border-radius: 3px;
+}
+
+#pixie-comments .read-comments ul.children {
+  padding: 0 30px;
+  background-color: $blue-light-transparent;
+}
+
+#pixie-comments .read-comments ul.children li {
+  margin-top: 0;
+  background-color: $white;
+  border-width: 2px 0 0 0;
+  border-style: dotted;
+}
+
+#pixie-comments .read-comments .comment-body {
+  position: relative;
+}
+
+#pixie-comments .read-comments .comment-body p {
+  padding: 0 55px;
+}
+
+#pixie-comments .read-comments .comment-author {
+  padding: 10px;
+  background-color: $blue-light;
+}
+
+#pixie-comments .read-comments .comment-author img {
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+#pixie-comments .read-comments .comment-author cite {
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+#pixie-comments .read-comments .comment-meta {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+#pixie-comments .read-comments .comment-meta .comment-edit-link {
+  color: $pink-dark-transparency;
+}
+
+#pixie-comments .read-comments .comment-meta a {
+  font-weight: bold;
+  text-decoration: none;
+  color: $white;
+}
+
+#pixie-comments .read-comments .reply a {
+  display: block;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: $blue-dark;
+  background-color: $blue-light-transparent;
+}
+
+#pixie-comments .read-comments .says {
+  color: $blue-light;
+}
+
+#pixie-comments .pagination-comments {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  @include clearfix();
+}
+
+#pixie-comments .pagination-comments a {
+  text-decoration: none;
+  color: $pink-light;
+}
+
+#pixie-comments .pagination-comments .current {
+  font-weight: bold;
+  color: $pink-dark;
+}
+
+#pixie-comments .pagination-comments .prev {
+  float: left;
+}
+
+#pixie-comments .pagination-comments .next {
+  float: right;
+}
+
+#pixie-comments .pagination-comments .prev,
+#pixie-comments .pagination-comments .next {
+  width: 40px;
+  height: 40px;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev,
+#pixie-comments .pagination-comments .next .pagination-next {
+  width: 40px;
+  height: 40px;
+  background-color: $white;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev:hover,
+#pixie-comments .pagination-comments .next .pagination-next:hover {
+  background-color: $pink-dark-transparency;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev {
+  background-image: url("images/btn_arrow_left.svg");
+  background-position: 30%;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev:hover {
+  background-image: url("images/btn_arrow_left_hover.svg");
+}
+
+#pixie-comments .pagination-comments .next .pagination-next {
+  background-image: url("images/btn_arrow_right.svg");
+  background-position: 70%;
+}
+
+#pixie-comments .pagination-comments .next .pagination-next:hover {
+  background-image: url("images/btn_arrow_right_hover.svg");
+}

@@ -6,6 +6,8 @@
         $titreBienvenue = $bienvenuePod->display('bienvenue_titre');
         $imageBienvenue = $bienvenuePod->display('bienvenue_image');
         $texteBienvenue = $bienvenuePod->display('bienvenue_texte');
+        $userEmailBienvenue = $bienvenuePod->field('bienvenue_contact');
+        $presentationPageBienvenue = $bienvenuePod->field('bienvenue_presentation_page');
     }
     $signaturePod = pods('signature');
     if($signaturePod->exists()){
@@ -32,13 +34,13 @@
             $templateUri = get_template_directory_uri() . '/images/';
             ?>
             <div class="contact-information">
-                <a href="mailto:<?php print($userInfos->user_email); ?>" target="_blank">
+                <a href="mailto:<?php print($userEmailBienvenue['user_email']); ?>" target="_blank">
                     <img src="<?php print($templateUri . 'btn_contact.svg'); ?>" alt="Contact" />
                     <div>Contact</div>
                 </a>
             </div>
             <div class="presentation-information">
-                <a href="">
+                <a href="<?php print(get_permalink($presentationPageBienvenue['ID'])); ?>" title="<?php print($presentationPageBienvenue['post_title']); ?>">
                     <img src="<?php print($templateUri . 'btn_presentation.svg'); ?>" alt="Présentation" />
                     <span>Présentation</span>
                 </a>

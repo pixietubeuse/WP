@@ -1,0 +1,8 @@
+#pixie-front-page .content,
+#pixie-single .content,
+#pixie-comments .write-comment .content,
+#pixie-comments .read-comments .content,
+#pixie-page .content {
+  @include content-div;
+  @include clearfix;
+}

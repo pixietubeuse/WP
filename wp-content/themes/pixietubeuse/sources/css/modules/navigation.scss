@@ -65,6 +65,7 @@ nav .sub-menu .menu-item:hover {
 }
 
 nav .sub-menu .menu-item:hover a {
+  display: block;
   font-weight: bold;
   color: $pink-dark;
 }

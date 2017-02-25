@@ -1,0 +1,8 @@
+img.avatar {
+    background-image: url("images/avatar_mickey.svg") !important;
+    background-color: #FFFFFF !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    background-position: center !important;
+    border-radius: 50% !important;
+}
