@@ -1,8 +1,15 @@
-#pixie-front-page .content,
+#pixie-index .content,
 #pixie-single .content,
 #pixie-comments .write-comment .content,
 #pixie-comments .read-comments .content,
 #pixie-page .content {
   @include content-div;
   @include clearfix;
+}
+
+#pixie-single .content .article-detail img,
+#pixie-page .content .article-detail img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

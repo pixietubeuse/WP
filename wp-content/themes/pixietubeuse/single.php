@@ -12,7 +12,7 @@ get_template_part("modules/navigation");
                     the_post();
                     ?>
                     <h2><?php the_title(); ?></h2>
-                    <div class="article-date-parution">Publié le : <?php the_date(); ?></div>
+                    <div class="article-date-parution">Publié le : <?php print(get_the_date()); ?></div>
                     <?php if(has_post_thumbnail()) { ?>
                         <div class="article-image"><?php the_post_thumbnail(); ?></div>
                     <?php }
@@ -29,7 +29,7 @@ get_template_part("modules/navigation");
         <div class="article-partage">
             <div class="center-partage">
                 <div class="texte-partage">Partager cet article :</div>
-                <div class="reseaux-partage">Réseaux sociaux</div>
+                <div class="reseaux-partage"><?php get_template_part('/modules/partage-social-network'); ?></div>
             </div>
         </div>
     </div>
