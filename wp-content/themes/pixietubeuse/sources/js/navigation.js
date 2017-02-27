@@ -14,6 +14,6 @@ jQuery(document).ready(function($) {
     var navigationWidth = $('nav').width();
     var navigationContentWidth = $('nav .content').width();
     var menuPosition = (navigationWidth - navigationContentWidth) / 2;
-    $('nav .sub-menu').css({left: menuPosition});
+    $('nav .sub-menu').css({left: menuPosition + 32});
     //------------------------------------------------------------------------------------------------------------------
 });

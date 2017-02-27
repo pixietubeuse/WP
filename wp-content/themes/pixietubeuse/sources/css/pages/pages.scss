@@ -2,7 +2,8 @@
 #pixie-single .content,
 #pixie-comments .write-comment .content,
 #pixie-comments .read-comments .content,
-#pixie-page .content {
+#pixie-page .content,
+#pixie-404 .content {
   @include content-div;
   @include clearfix;
 }

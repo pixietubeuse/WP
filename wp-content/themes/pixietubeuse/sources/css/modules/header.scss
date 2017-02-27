@@ -2,6 +2,10 @@ header .content {
   @include content-div;
 }
 
+.header-link-home {
+  display: block;
+}
+
 #header-custom-image {
   display: block;
   width: 100%;
