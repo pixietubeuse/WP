@@ -333,9 +333,9 @@ require get_template_directory() . '/inc/banner.php';
 require get_template_directory() . '/inc/styles.php';
 
 /**
- *  Customizer info
+ *  Upsells
  */
-require_once get_template_directory() . '/inc/customizer-info/class/class-singleton-customizer-info-section.php';
+require_once( trailingslashit( get_template_directory() ) . 'inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php' );
 
 /**
  * Filter for post's classes.

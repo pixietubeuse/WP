@@ -1,10 +1,10 @@
-=== Instagram Type Gallery ===
+=== Instagram type Gallery ===
 Contributors: awordpresslife
-Tags: instagram, gallery, widget, photo, video, animation, picture, lightbox, shortcode, instagram type gallery, ligthbox gallery, wordpress gallery, responsive gallery
+Tags: instagram,instagram gallery, gallery, widget, photo, video, animation, picture, lightbox, shortcode, instagram type gallery, ligthbox gallery, wordpress gallery instagram, responsive gallery,instagram gallery,insta gallery, instagram WordPress, WordPres, wordpress gallery
 Donate link: http://awplife.com/
 Requires at least: 4.0
 Tested up to: 4.7.1
-Stable tag: 0.0.6
+Stable tag: 0.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,20 +54,6 @@ https://www.youtube.com/watch?v=PAuuSCZqye4
 * Easily Customization
 * Fast, Friendly & Quality Support
 
-
-== Installation ==
-
-Install  New Insta Type Gallery either via the WordPress.org plugin directory or by uploading the files to your server.
-
-After activating New Insta Type Gallery plugin, go to plugin menu.
-
-Login into admin dashboard. Go to menu: New Insta Type Gallery --> Add Insta Gallery
-
-Create gallery & configure settings and save.
-
-Copy shortcode and paste shortcode into any Page / Post. And view page for gallery output.
-
-That's it. You're ready to go!
 
 = Recommended Plugins =
 
@@ -124,6 +110,21 @@ The following are other recommended plugins by the author:
 * [Facebook Likebox Plugin](https://wordpress.org/plugins/facebook-likebox-widget-and-shortcode/ "Facebook Likebox Plugin") - Facebook Light Box Plugin For Wordpress 
  
 
+== Installation ==
+
+Install  New Insta Type Gallery either via the WordPress.org plugin directory or by uploading the files to your server.
+
+After activating New Insta Type Gallery plugin, go to plugin menu.
+
+Login into admin dashboard. Go to menu: New Insta Type Gallery --> Add Insta Gallery
+
+Create gallery & configure settings and save.
+
+Copy shortcode and paste shortcode into any Page / Post. And view page for gallery output.
+
+That's it. You're ready to go!
+
+
 == Screenshots ==
 
 1. insta type gallery setting
@@ -137,6 +138,16 @@ The following are other recommended plugins by the author:
 9. insta type gallery preview with lightbox
 
 == Changelog ==
+Feature Enhancements: Version 0.0.8
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.0.7
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
 Feature Enhancements: Version 0.0.6
 * Enhancements: None
 * Bug Fix: None

@@ -22,20 +22,6 @@ function amadeus_customize_register( $wp_customize ) {
 	$wp_customize->remove_control( 'header_textcolor' );
 	$wp_customize->remove_control( 'display_header_text' );
 
-	require_once( 'class/amadeus-info.php' );
-	$wp_customize->add_section('amadeus_theme_info', array(
-		'title' => __( 'Theme info', 'amadeus' ),
-		'priority' => 0,
-	) );
-	$wp_customize->add_setting('amadeus_theme_info', array(
-		'capability'        => 'edit_theme_options',
-		'sanitize_callback' => 'amadeus_sanitize_text',
-	) );
-	$wp_customize->add_control( new Amadeus_Info( $wp_customize, 'amadeus_theme_info', array(
-		'section' => 'amadeus_theme_info',
-		'priority' => 10,
-	) ) );
-
 	// ___General___//
 	$wp_customize->add_section(
 		'amadeus_general',
@@ -975,6 +961,70 @@ function amadeus_customize_register( $wp_customize ) {
 			'step'  => 1,
 		),
 	) );
+
+	// Upsells
+	require_once( trailingslashit( get_template_directory() ) . 'inc/class/class-customizer-theme-info-control/class-customizer-theme-info-control.php' );
+
+	$wp_customize->add_section( 'amadeus_theme_info_main_section', array(
+		'title'    => __( 'View PRO version', 'amadeus' ),
+		'priority' => 0,
+	) );
+
+	$wp_customize->add_setting( 'amadeus_theme_info_main_control', array(
+		'sanitize_callback' => 'esc_html',
+	) );
+
+	// View Pro Version Section Control
+	$wp_customize->add_control( new Amadeus_Control_Upsell_Theme_Info( $wp_customize, 'amadeus_theme_info_main_control', array(
+		'section'     => 'amadeus_theme_info_main_section',
+		'priority'    => 100,
+		'options'     => array(
+			esc_html__( 'Extra Widget Area', 'amadeus' ),
+			esc_html__( 'Alternative Layout', 'amadeus' ),
+			esc_html__( 'Extra Colors', 'amadeus' ),
+			esc_html__( 'Extra Typography Options', 'amadeus' ),
+			esc_html__( 'Footer Credits', 'amadeus' ),
+			esc_html__( 'Support', 'amadeus' ),
+		),
+		'button_url'  => esc_url( 'https://themeisle.com/themes/amadeus-pro/' ),
+		'button_text' => esc_html__( 'View PRO version', 'amadeus' ),
+	) ) );
+
+	// Colors Section Upsell
+	$wp_customize->add_setting( 'amadeus_theme_info_colors_section_control', array(
+		'sanitize_callback' => 'esc_html',
+	) );
+
+	$wp_customize->add_control( new Amadeus_Control_Upsell_Theme_Info( $wp_customize, 'amadeus_theme_info_colors_section_control', array(
+		'section'     => 'colors',
+		'priority'    => 500,
+		'options'     => array(
+			esc_html__( 'Extra Colors', 'amadeus' ),
+		),
+		'explained_features' => array(
+			esc_html__( 'Change the color for header text, header buttons, widgets background and color, footer widgets title and article title.', 'amadeus' ),
+		),
+		'button_url'  => esc_url( 'https://themeisle.com/themes/amadeus-pro/' ),
+		'button_text' => esc_html__( 'View PRO version', 'amadeus' ),
+	) ) );
+
+	// Blog Section Upsell
+	$wp_customize->add_setting( 'amadeus_theme_info_blog_section_control', array(
+		'sanitize_callback' => 'esc_html',
+	) );
+
+	$wp_customize->add_control( new Amadeus_Control_Upsell_Theme_Info( $wp_customize, 'amadeus_theme_info_blog_section_control', array(
+		'section'     => 'blog_options',
+		'priority'    => 500,
+		'options'     => array(
+			esc_html__( 'Alternative Layout', 'amadeus' ),
+		),
+		'explained_features' => array(
+			esc_html__( 'Choose between 2 styles to display your posts on the front page.', 'amadeus' ),
+		),
+		'button_url'  => esc_url( 'https://themeisle.com/themes/amadeus-pro/' ),
+		'button_text' => esc_html__( 'View PRO version', 'amadeus' ),
+	) ) );
 
 }
 add_action( 'customize_register', 'amadeus_customize_register' );

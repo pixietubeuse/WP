@@ -1,7 +1,7 @@
 ( function( api ) {
-    'use strict';
-    // Extends our custom "customizer-info" section.
-    api.sectionConstructor['customizer-info'] = api.Section.extend( {
+
+    // Extends our custom "amadeus-theme-info" section.
+    api.sectionConstructor['amadeus-theme-info'] = api.Section.extend( {
 
         // No events for this type of section.
         attachEvents: function () {},
@@ -12,8 +12,8 @@
         }
     } );
 
-
-    api.sectionConstructor.amadeus_view_pro = api.Section.extend( {
+    // Extends our custom "amadeus-theme-info-sectionsections" section.
+    api.sectionConstructor['amadeus-theme-info-section'] = api.Section.extend( {
 
         // No events for this type of section.
         attachEvents: function () {},
@@ -23,5 +23,6 @@
             return true;
         }
     } );
+
 
 } )( wp.customize );

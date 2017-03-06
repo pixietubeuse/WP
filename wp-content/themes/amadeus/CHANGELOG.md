@@ -1,4 +1,8 @@
 
+### 2.0.4 - 28/02/2017
+**Changes:** 
+- Update Customize layout
+
 ### 2.0.3 - 01/02/2017
 **Changes:** 
 - Update fontawesome

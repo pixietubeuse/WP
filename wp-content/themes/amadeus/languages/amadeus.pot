@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Amadeus 2.0.2\n"
+"Project-Id-Version: Amadeus 2.0.3\n"
 "Report-Msgid-Bugs-To: https://github.com/Codeinwp/amadeus/issues\n"
-"POT-Creation-Date: 2017-01-03 09:08:48+00:00\n"
+"POT-Creation-Date: 2017-02-15 13:14:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -539,289 +539,318 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: inc/class/amadeus-info.php:41
+#. Theme Name of the plugin/theme
+msgid "Amadeus"
+msgstr ""
+
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:82
 msgid "Documentation"
 msgstr ""
 
-#: inc/class/amadeus-info.php:45
-msgid "View Demo"
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:90
+#: inc/customizer.php:983
+msgid "Slider"
 msgstr ""
 
-#: inc/class/amadeus-info.php:49
-msgid "Free VS Pro"
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:93
+msgid "Add a shortcode for a slider to replace the header image."
 msgstr ""
 
-#: inc/class/amadeus-info.php:53
-msgid "Leave a review"
-msgstr ""
-
-#: inc/customizer-info/class/class-singleton-customizer-info-section.php:79
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:96
+#: inc/customizer.php:969 inc/customizer.php:991 inc/customizer.php:1009
+#: inc/customizer.php:1027
 msgid "View PRO version"
-msgstr ""
-
-#: inc/customizer-info/class/class-singleton-customizer-info-section.php:81
-msgid "Get it"
 msgstr ""
 
 #: inc/customizer.php:20
 msgid "Site branding"
 msgstr ""
 
-#: inc/customizer.php:27
-msgid "Theme info"
-msgstr ""
-
-#: inc/customizer.php:43
+#: inc/customizer.php:29
 msgid "General"
 msgstr ""
 
-#: inc/customizer.php:60
+#: inc/customizer.php:46
 msgid "Upload your favicon"
 msgstr ""
 
-#: inc/customizer.php:73
+#: inc/customizer.php:59
 msgid "Header area"
 msgstr ""
 
-#: inc/customizer.php:94
+#: inc/customizer.php:80
 msgid "Upload your logo"
 msgstr ""
 
-#: inc/customizer.php:116
+#: inc/customizer.php:102
 msgid "Logo size"
 msgstr ""
 
-#: inc/customizer.php:117
+#: inc/customizer.php:103
 msgid "Max-width for the logo. Default 200px"
 msgstr ""
 
-#: inc/customizer.php:136
+#: inc/customizer.php:122
 msgid "Logo style"
 msgstr ""
 
-#: inc/customizer.php:137
+#: inc/customizer.php:123
 msgid "This option applies only if you are using a logo"
 msgstr ""
 
-#: inc/customizer.php:141 inc/customizer.php:1002
+#: inc/customizer.php:127 inc/customizer.php:1053
 msgid "Only logo"
 msgstr ""
 
-#: inc/customizer.php:142 inc/customizer.php:1003
+#: inc/customizer.php:128 inc/customizer.php:1054
 msgid "Logo plus site title&amp;description"
 msgstr ""
 
-#: inc/customizer.php:158
+#: inc/customizer.php:144
 msgid "Site branding padding"
 msgstr ""
 
-#: inc/customizer.php:159
+#: inc/customizer.php:145
 msgid ""
 "Top&amp;bottom padding for the branding (logo, site title, description). "
 "Default: 75px"
 msgstr ""
 
-#: inc/customizer.php:171 inc/customizer.php:188
+#: inc/customizer.php:157 inc/customizer.php:174
 msgid "Menu position"
 msgstr ""
 
-#: inc/customizer.php:192 inc/customizer.php:1021
+#: inc/customizer.php:178 inc/customizer.php:1072
 msgid "Above site title/description"
 msgstr ""
 
-#: inc/customizer.php:193 inc/customizer.php:1022
+#: inc/customizer.php:179 inc/customizer.php:1073
 msgid "Below site title/description"
 msgstr ""
 
-#: inc/customizer.php:202 inc/customizer.php:219
+#: inc/customizer.php:188 inc/customizer.php:205
 msgid "Banner type"
 msgstr ""
 
-#: inc/customizer.php:223 inc/customizer.php:1040
+#: inc/customizer.php:209 inc/customizer.php:1091
 msgid "Header image"
 msgstr ""
 
-#: inc/customizer.php:224 inc/customizer.php:1041
+#: inc/customizer.php:210 inc/customizer.php:1092
 msgid "Nivo Slider (requires the Nivo Slider plugin)"
 msgstr ""
 
-#: inc/customizer.php:225 inc/customizer.php:1042
+#: inc/customizer.php:211 inc/customizer.php:1093
 msgid "Nothing"
 msgstr ""
 
-#: inc/customizer.php:241
+#: inc/customizer.php:227
 msgid "Show the banner only on the homepage?"
 msgstr ""
 
-#: inc/customizer.php:255
+#: inc/customizer.php:241
 msgid "Add the shortcode for the Nivo Slider plugin here"
 msgstr ""
 
-#: inc/customizer.php:258
+#: inc/customizer.php:244
 msgid "Add the shortcode for the %s plugin here"
 msgstr ""
 
-#: inc/customizer.php:264
+#: inc/customizer.php:250
 msgid "Nivo Slider shortcode"
 msgstr ""
 
-#: inc/customizer.php:284
+#: inc/customizer.php:270
 msgid "Header image height"
 msgstr ""
 
-#: inc/customizer.php:303
+#: inc/customizer.php:289
 msgid "Header image height < 1024px"
 msgstr ""
 
-#: inc/customizer.php:304
+#: inc/customizer.php:290
 msgid "Set your header image height for screen widths smaller than 1024px"
 msgstr ""
 
-#: inc/customizer.php:323
+#: inc/customizer.php:309
 msgid "Hide the animated scroll arrow from the header image?"
 msgstr ""
 
-#: inc/customizer.php:333
+#: inc/customizer.php:319
 msgid "Blog options"
 msgstr ""
 
-#: inc/customizer.php:349
+#: inc/customizer.php:335
 msgid "Excerpt length"
 msgstr ""
 
-#: inc/customizer.php:350
+#: inc/customizer.php:336
 msgid "Choose your excerpt length. Default: 55 words"
 msgstr ""
 
-#: inc/customizer.php:369
+#: inc/customizer.php:355
 msgid "Hide date/author/archives on index?"
 msgstr ""
 
-#: inc/customizer.php:385
+#: inc/customizer.php:371
 msgid "Hide date/author/archives on single posts?"
 msgstr ""
 
-#: inc/customizer.php:401
+#: inc/customizer.php:387
 msgid "Hide the sidebar on index?"
 msgstr ""
 
-#: inc/customizer.php:417
+#: inc/customizer.php:403
 msgid "Hide the sidebar on single posts and pages?"
 msgstr ""
 
-#: inc/customizer.php:434
+#: inc/customizer.php:420
 msgid "Display the full content of your posts on index?"
 msgstr ""
 
-#: inc/customizer.php:450
+#: inc/customizer.php:436
 msgid "Hide featured images on index, archives?"
 msgstr ""
 
-#: inc/customizer.php:466
+#: inc/customizer.php:452
 msgid "Hide featured images on single posts?"
 msgstr ""
 
-#: inc/customizer.php:486
+#: inc/customizer.php:472
 msgid "Primary color"
 msgstr ""
 
-#: inc/customizer.php:508
+#: inc/customizer.php:494
 msgid "Social area background"
 msgstr ""
 
-#: inc/customizer.php:528
+#: inc/customizer.php:514
 msgid "Social icons"
 msgstr ""
 
-#: inc/customizer.php:549
+#: inc/customizer.php:535
 msgid "Branding background"
 msgstr ""
 
-#: inc/customizer.php:570
+#: inc/customizer.php:556
 msgid "Menu background"
 msgstr ""
 
-#: inc/customizer.php:591
+#: inc/customizer.php:577
 msgid "Menu items"
 msgstr ""
 
-#: inc/customizer.php:612 inc/customizer.php:811
+#: inc/customizer.php:598 inc/customizer.php:797
 msgid "Site title"
 msgstr ""
 
-#: inc/customizer.php:633 inc/customizer.php:831
+#: inc/customizer.php:619 inc/customizer.php:817
 msgid "Site description"
 msgstr ""
 
-#: inc/customizer.php:653
+#: inc/customizer.php:639
 msgid "Entry titles"
 msgstr ""
 
-#: inc/customizer.php:673
+#: inc/customizer.php:659
 msgid "Entry meta"
 msgstr ""
 
-#: inc/customizer.php:693
+#: inc/customizer.php:679
 msgid "Body text"
 msgstr ""
 
-#: inc/customizer.php:714
+#: inc/customizer.php:700
 msgid "Footer background"
 msgstr ""
 
-#: inc/customizer.php:725
+#: inc/customizer.php:711
 msgid "Fonts"
 msgstr ""
 
-#: inc/customizer.php:727
+#: inc/customizer.php:713
 msgid ""
 "You can use any Google Fonts you want for the heading and/or body. See the "
 "fonts here: google.com/fonts. See the documentation if you need help with "
 "this: flyfreemedia.com/documentation/amadeus"
 msgstr ""
 
-#: inc/customizer.php:741
+#: inc/customizer.php:727
 msgid "Body font name/style/sets"
 msgstr ""
 
-#: inc/customizer.php:758
+#: inc/customizer.php:744
 msgid "Body font family"
 msgstr ""
 
-#: inc/customizer.php:775
+#: inc/customizer.php:761
 msgid "Headings font name/style/sets"
 msgstr ""
 
-#: inc/customizer.php:792
+#: inc/customizer.php:778
 msgid "Headings font family"
 msgstr ""
 
-#: inc/customizer.php:851
+#: inc/customizer.php:837
 msgid "H1 font size"
 msgstr ""
 
-#: inc/customizer.php:871
+#: inc/customizer.php:857
 msgid "H2 font size"
 msgstr ""
 
-#: inc/customizer.php:891
+#: inc/customizer.php:877
 msgid "H3 font size"
 msgstr ""
 
-#: inc/customizer.php:911
+#: inc/customizer.php:897
 msgid "H4 font size"
 msgstr ""
 
-#: inc/customizer.php:931
+#: inc/customizer.php:917
 msgid "H5 font size"
 msgstr ""
 
-#: inc/customizer.php:951
+#: inc/customizer.php:937
 msgid "H6 font size"
 msgstr ""
 
-#: inc/customizer.php:971
+#: inc/customizer.php:957
 msgid "Body font size"
+msgstr ""
+
+#: inc/customizer.php:982
+msgid "Jetpack Related Posts"
+msgstr ""
+
+#: inc/customizer.php:984
+msgid "Extra Widget Area"
+msgstr ""
+
+#: inc/customizer.php:985 inc/customizer.php:1021
+msgid "Alternative Layout"
+msgstr ""
+
+#: inc/customizer.php:986 inc/customizer.php:1003
+msgid "Extra Colors"
+msgstr ""
+
+#: inc/customizer.php:987
+msgid "Footer Credits"
+msgstr ""
+
+#: inc/customizer.php:988
+msgid "Support"
+msgstr ""
+
+#: inc/customizer.php:1006
+msgid ""
+"Change the color for header text, header buttons, widgets background and "
+"color, footer widgets title and article title."
+msgstr ""
+
+#: inc/customizer.php:1024
+msgid "Choose between 2 styles to display your posts on the front page."
 msgstr ""
 
 #: inc/extras.php:52
@@ -975,10 +1004,6 @@ msgstr ""
 msgid ""
 "Paste the URL of the video (only from a network that supports oEmbed, like "
 "Youtube, Vimeo etc.):"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "Amadeus"
 msgstr ""
 
 #. Theme URI of the plugin/theme
