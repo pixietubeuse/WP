@@ -7,6 +7,12 @@
     width: 230px;
     margin-right: 30px;
   }
+  @include max-screen($large-devices - 1){
+    padding: 7px 20px 30px 20px;
+    border-width: 0 0 3px 0;
+    border-style: dotted;
+    border-color: $pink-dark;
+  }
 }
 
 #bienvenue .bienvenue-image {

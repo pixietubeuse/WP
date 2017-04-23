@@ -2,11 +2,11 @@ jQuery(document).ready(function($) {
     //------------------------------------------------------------------------------------------------------------------
     // menu de navigation
     //------------------------------------------------------------------------------------------------------------------
-    $('.menu-item').on('mouseenter', function(){
-        $(this).find('.sub-menu').stop( true, true ).slideDown('slow');
+    $('nav.desktop-navigation .menu-item').on('mouseenter', function(){
+        $(this).find('nav.desktop-navigation .sub-menu').stop( true, true ).slideDown('slow');
     });
-    $('.menu-item').on('mouseleave', function(){
-        $(this).find('.sub-menu').stop( true, true ).slideUp('slow');
+    $('nav.desktop-navigation .menu-item').on('mouseleave', function(){
+        $(this).find('nav.desktop-navigation .sub-menu').stop( true, true ).slideUp('slow');
     });
 
     //placement du sous-menu

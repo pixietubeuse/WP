@@ -11,12 +11,23 @@
   border-color: $blue-dark;
   border-style: solid;
   border-width: 1px;
+  @include max-screen($large-devices - 1){
+    margin-bottom: 0;
+    border-radius: 0;
+    border-width: 0;
+  }
 }
 
 .post-preview-image {
   height: 250px;
   overflow: hidden;
   border-radius: 3px 3px 0px 0px;
+  @include max-screen($large-devices - 1){
+    border-radius: 0;
+  }
+  @include max-screen($small-devices){
+    height: auto;
+  }
 }
 
 .post-preview-image img {
@@ -24,10 +35,23 @@
   top: -25%;
   width: 100%;
   height: auto;
+  display: block;
+  @include max-screen($large-devices - 1){
+    top: -75%;
+  }
+  @include max-screen($large-devices - 150){
+    top: -55%;
+  }
+  @include max-screen($small-devices){
+    top: 0;
+  }
 }
 
 .post-preview-resume {
   padding: 10px 15px;
+  @include max-screen($large-devices - 1){
+    padding: 10px 20px;
+  }
 }
 
 .post-preview-resume h2 {

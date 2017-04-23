@@ -3,6 +3,7 @@
 if(!is_admin()){
     // get css files
     wp_enqueue_style( 'style', get_stylesheet_uri());
+    wp_enqueue_style( 'dashicons' );
 
     // get script files
     wp_enqueue_script('jquery');

@@ -18,3 +18,4 @@ wp-content/plugins/hello.php
 
 /.idea
 /wp-content/themes/pixietubeuse/node_modules
+/wp-config.php

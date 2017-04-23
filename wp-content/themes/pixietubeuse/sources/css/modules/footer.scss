@@ -9,8 +9,18 @@ footer {
 footer .content {
   text-align: center;
   @include content-div;
+  @include max-screen(520){
+    padding: 0 20px;
+  }
 }
 
 footer .signature-footer {
   width: 500px;
+  @include max-screen(520){
+    width: 100%;
+  }
+}
+
+footer .menu-reseaux-sociaux-container ul {
+  padding: 0;
 }
