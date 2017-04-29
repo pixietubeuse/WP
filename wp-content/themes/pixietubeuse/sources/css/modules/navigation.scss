@@ -116,6 +116,7 @@ nav.mobile-navigation .burger-line-navigation:last-of-type {
 }
 
 nav.mobile-navigation .content {
+  display: none;
   position: fixed;
   top: 0;
   right: 0px;
@@ -168,4 +169,21 @@ nav.mobile-navigation .sub-menu .menu-item {
 
 nav.mobile-navigation .sub-menu .menu-item a {
   color: $pink-dark;
+}
+
+nav.mobile-navigation .mobile-navigation-btn-close {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+nav.mobile-navigation .dashicons-admin-home {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
 }

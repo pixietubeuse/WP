@@ -13,6 +13,7 @@
         <div class="burger-line-navigation"></div>
     </div>
     <div class="content">
+        <div class="dashicons dashicons-no-alt mobile-navigation-btn-close"></div>
         <?php wp_nav_menu( array( 'theme_location' => 'menu' ) ); ?>
         <div class="boutons-menu">
             <?php wp_nav_menu( array( 'theme_location' => 'reseauxSociaux' ) ); ?>
