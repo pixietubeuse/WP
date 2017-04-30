@@ -1,0 +1,87 @@
+/* ---------------------------------------------------------------------------------------------------------------------
+Pagination
+----------------------------------------------------------------------------------------------------------------------*/
+#pixie-comments .pagination-comments,
+#pixie-index .pagination {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  @include clearfix();
+}
+
+#pixie-index .pagination {
+  @include max-screen($large-devices - 1){
+    padding: 0 20px;
+  }
+}
+
+#pixie-comments .pagination-comments a,
+#pixie-index .pagination .page-numbers {
+  text-decoration: none;
+  color: $pink-light;
+}
+
+#pixie-comments .pagination-comments .current,
+#pixie-index .pagination .current {
+  font-weight: bold;
+  color: $pink-dark;
+}
+
+#pixie-comments .pagination-comments .prev,
+#pixie-index .pagination .prev {
+  float: left;
+}
+
+#pixie-comments .pagination-comments .next,
+#pixie-index .pagination .next {
+  float: right;
+}
+
+#pixie-comments .pagination-comments .prev,
+#pixie-comments .pagination-comments .next,
+#pixie-index .pagination .prev,
+#pixie-index .pagination .next {
+  width: 40px;
+  height: 40px;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev,
+#pixie-comments .pagination-comments .next .pagination-next,
+#pixie-index .pagination .page-numbers .pagination-prev,
+#pixie-index .pagination .page-numbers .pagination-next {
+  width: 40px;
+  height: 40px;
+  background-color: $white;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev:hover,
+#pixie-comments .pagination-comments .next .pagination-next:hover,
+#pixie-index .pagination .page-numbers .pagination-prev:hover,
+#pixie-index .pagination .page-numbers .pagination-next:hover {
+  background-color: $pink-dark-transparency;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev,
+#pixie-index .pagination .page-numbers .pagination-prev {
+  background-image: url("images/btn_arrow_left.svg");
+  background-position: 30%;
+}
+
+#pixie-comments .pagination-comments .prev .pagination-prev:hover,
+#pixie-index .pagination .page-numbers .pagination-prev:hover {
+  background-image: url("images/btn_arrow_left_hover.svg");
+}
+
+#pixie-comments .pagination-comments .next .pagination-next,
+#pixie-index .pagination .page-numbers .pagination-next {
+  background-image: url("images/btn_arrow_right.svg");
+  background-position: 70%;
+}
+
+#pixie-comments .pagination-comments .next .pagination-next:hover,
+#pixie-index .pagination .page-numbers .pagination-next:hover {
+  background-image: url("images/btn_arrow_right_hover.svg");
+}

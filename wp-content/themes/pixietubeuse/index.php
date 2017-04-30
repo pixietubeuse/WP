@@ -27,6 +27,17 @@ get_template_part("modules/navigation");
                 <?php
                 }
                 ?>
+                <div class="pagination">
+                    <?php
+                    $parametersPagination = [
+                        'end_size'          => 3,
+                        'mid_size'          => 0,
+                        'prev_text'         => '<div class="pagination-prev"></div>',
+                        'next_text'         => '<div class="pagination-next"></div>',
+                    ];
+                    print(paginate_links($parametersPagination));
+                    ?>
+                </div>
             </div>
             <?php } ?>
         </div>
