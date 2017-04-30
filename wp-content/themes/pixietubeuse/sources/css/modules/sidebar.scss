@@ -9,9 +9,6 @@
   }
   @include max-screen($large-devices - 1){
     padding: 7px 20px 30px 20px;
-    border-width: 0 0 3px 0;
-    border-style: dotted;
-    border-color: $pink-dark;
   }
 }
 
@@ -72,5 +69,12 @@
 
 #pixie-sidebar .contact-information img,
 #pixie-sidebar .presentation-information img {
+  display: block;
+  margin: 0 auto;
   width: 40px;
+  height:  auto;
+}
+
+#pixie-sidebar .btn-youtube {
+  text-align: center;
 }

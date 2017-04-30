@@ -4,16 +4,16 @@ jQuery(function($) {
         // Sidebar
         //------------------------------------------------------------------------------------------------------------------
         $('.more-informations .contact-information').on('mouseenter', function(){
-            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_contact_hover.svg');
+            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_contact_hover.png');
         });
         $('.more-informations .contact-information').on('mouseleave', function(){
-            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_contact.svg');
+            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_contact.png');
         });
         $('.more-informations .presentation-information').on('mouseenter', function(){
-            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_presentation_hover.svg');
+            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_presentation_hover.png');
         });
         $('.more-informations .presentation-information').on('mouseleave', function(){
-            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_presentation.svg');
+            $(this).find('img').attr('src', 'http://pixietubeuse.com/wp-content/themes/pixietubeuse/images/btn_presentation.png');
         });
         //------------------------------------------------------------------------------------------------------------------
     });

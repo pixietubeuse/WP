@@ -35,14 +35,18 @@
             ?>
             <div class="contact-information">
                 <a href="mailto:<?php print($userEmailBienvenue['user_email']); ?>" target="_blank">
-                    <img src="<?php print($templateUri . 'btn_contact.svg'); ?>" alt="Contact" />
+                    <div>
+                        <img src="<?php print($templateUri . 'btn_contact.png'); ?>" alt="Contact" />
+                    </div>
                     <div>Contact</div>
                 </a>
             </div>
             <div class="presentation-information">
                 <a href="<?php print(get_permalink($presentationPageBienvenue['ID'])); ?>" title="<?php print($presentationPageBienvenue['post_title']); ?>">
-                    <img src="<?php print($templateUri . 'btn_presentation.svg'); ?>" alt="Présentation" />
-                    <span>Présentation</span>
+                    <div>
+                        <img src="<?php print($templateUri . 'btn_presentation.png'); ?>" alt="Présentation" />
+                    </div>
+                    <div>Présentation</div>
                 </a>
             </div>
         </div>

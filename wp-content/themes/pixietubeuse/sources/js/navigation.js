@@ -5,7 +5,7 @@ jQuery(function($) {
         //------------------------------------------------------------------------------------------------------------------
         var navigationItem = $('nav.desktop-navigation .menu-item');
         var navigationSubMenu = 'ul.sub-menu';
-        navigationItem.on('mouseenter', function(){ console.log('enter');
+        navigationItem.on('mouseenter', function(){
             $(this).find(navigationSubMenu).stop( true, true ).slideDown('slow');
         });
         navigationItem.on('mouseleave', function(){

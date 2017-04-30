@@ -9,6 +9,21 @@
   text-align: center;
 }
 
+#pixie-single .article-detail h2,
+#pixie-single .article-detail .article-date-parution,
+#pixie-single .article-detail p {
+  @include max-screen($large-devices - 1){
+    padding: 0 20px;
+  }
+}
+
+#pixie-single .article-detail iframe {
+  @include max-screen($large-devices - 1){
+    width: 100%;
+    height: auto;
+  }
+}
+
 #pixie-single .article-detail .article-date-parution {
   font-style: italic;
   text-align: center;
@@ -26,6 +41,9 @@
 
 #pixie-single .article-partage {
   margin: 60px 0;
+  @include max-screen($large-devices - 1){
+    padding: 0 20px;
+  }
 }
 
 #pixie-single .article-partage:after {
@@ -38,6 +56,10 @@
   display: block;
   margin: 0 auto;
   width: 450px;
+  @include max-screen($large-devices - 1){
+    width: auto;
+    text-align: center;
+  }
 }
 
 #pixie-single .article-partage .texte-partage {
@@ -45,4 +67,7 @@
   font-family: $font-satisfy;
   font-size: $font-size-title;
   color: $pink-light;
+  @include max-screen($large-devices - 1){
+    float: none;
+  }
 }
