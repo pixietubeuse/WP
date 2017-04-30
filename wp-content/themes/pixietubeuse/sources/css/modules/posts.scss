@@ -83,6 +83,11 @@ Posts
   border-radius: 3px;
 }
 
+.post-preview a.more-link:hover {
+  color: $white;
+  background-color: $blue-dark;
+}
+
 .post-preview-date-parution {
   font-family: 'Calibri', 'Arial';
   font-size: 13px;
