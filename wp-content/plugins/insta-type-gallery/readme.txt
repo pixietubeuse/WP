@@ -1,16 +1,18 @@
 === Instagram type Gallery ===
 Contributors: awordpresslife
-Tags: instagram,instagram gallery, gallery, widget, photo, video, animation, picture, lightbox, shortcode, instagram type gallery, ligthbox gallery, wordpress gallery instagram, responsive gallery,instagram gallery,insta gallery, instagram WordPress, WordPres, wordpress gallery
+Tags: instagram, instagram gallery, gallery, wordpress gallery, instagram profile, instagram feed, instagram gallery plugin, image gallery, photo gallery, wordpress gallery, responsive gallery, portfolio gallery
 Donate link: http://awplife.com/
 Requires at least: 4.0
 Tested up to: 4.7.1
-Stable tag: 0.0.8
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Instagram type gallery plugin with lightbox preview for WordPress 
+
 == Description ==
 
-Responsive Simple Beautiful Easy Powerful WordPress Gallery Plugin With Light Box Style. Create gallery using custom post type and use gallery shortcode to publish your gallery anywhere in WordPress.
+Gallery - Responsive Simple Beautiful Easy Powerful WordPress Gallery Plugin With Light Box Style. Create gallery using custom post type and use gallery shortcode to publish your gallery anywhere in WordPress.
 
 https://www.youtube.com/watch?v=PAuuSCZqye4
 
@@ -138,6 +140,41 @@ That's it. You're ready to go!
 9. insta type gallery preview with lightbox
 
 == Changelog ==
+Feature Enhancements: Version 0.1.2
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.1.1
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.1.0
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.0.12
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.0.11
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.0.10
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+Feature Enhancements: Version 0.0.9
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
 Feature Enhancements: Version 0.0.8
 * Enhancements: None
 * Bug Fix: None
