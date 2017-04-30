@@ -14,7 +14,10 @@ class Amadeus_Video extends WP_Widget {
 	 * Amadeus_Video constructor.
 	 */
 	public function __construct() {
-		$widget_ops = array( 'classname' => 'amadeus_video_widget', 'description' => __( 'Display an oEmbed video.', 'amadeus' ) );
+		$widget_ops = array(
+			'classname' => 'amadeus_video_widget',
+			'description' => __( 'Display an oEmbed video.', 'amadeus' ),
+		);
 		parent::__construct( 'amadeus_video', __( 'Amadeus: Video', 'amadeus' ), $widget_ops );
 		$this->alt_option_name = 'amadeus_video';
 

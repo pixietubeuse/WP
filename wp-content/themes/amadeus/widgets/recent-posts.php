@@ -14,7 +14,10 @@ class Amadeus_Recent_Posts extends WP_Widget {
 	 * Amadeus_Recent_Posts constructor.
 	 */
 	public function __construct() {
-		$widget_ops = array( 'classname' => 'amadeus_recent_posts_widget', 'description' => __( 'Recent posts with thumbnails.', 'amadeus' ) );
+		$widget_ops = array(
+			'classname' => 'amadeus_recent_posts_widget',
+			'description' => __( 'Recent posts with thumbnails.', 'amadeus' ),
+		);
 		parent::__construct( 'amadeus_recent_posts_widget', __( 'Amadeus: Recent Posts', 'amadeus' ), $widget_ops );
 		$this->alt_option_name = 'amadeus_recent_posts_widget';
 

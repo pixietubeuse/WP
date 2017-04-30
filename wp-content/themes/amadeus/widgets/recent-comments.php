@@ -14,7 +14,10 @@ class Amadeus_Recent_Comments extends WP_Widget {
 	 * Amadeus_Recent_Comments constructor.
 	 */
 	public function __construct() {
-		$widget_ops = array( 'classname' => 'amadeus_recent_comments', 'description' => __( 'Recent comments with avatars.', 'amadeus' ) );
+		$widget_ops = array(
+			'classname' => 'amadeus_recent_comments',
+			'description' => __( 'Recent comments with avatars.', 'amadeus' ),
+		);
 		parent::__construct( 'recent-comments', __( 'Amadeus: Recent Comments', 'amadeus' ), $widget_ops );
 		$this->alt_option_name = 'amadeus_recent_comments';
 

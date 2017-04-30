@@ -1,4 +1,8 @@
 
+### 2.0.5 - 11/04/2017
+**Changes:** 
+- Update tgm library
+
 ### 2.0.4 - 28/02/2017
 **Changes:** 
 - Update Customize layout

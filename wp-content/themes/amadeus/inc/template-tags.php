@@ -83,6 +83,7 @@ if ( ! function_exists( 'amadeus_posted_on' ) ) :
 		);
 
 		$posted_on = sprintf(
+			/* translators: post date */
 			_x( '%s', 'post date', 'amadeus' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
@@ -93,6 +94,7 @@ if ( ! function_exists( 'amadeus_posted_on' ) ) :
 		}
 
 		$byline = sprintf(
+			/* translators: Author link */
 			_x( '%s', 'post author', 'amadeus' ),
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
@@ -105,6 +107,7 @@ if ( ! function_exists( 'amadeus_posted_on' ) ) :
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'amadeus' ) );
 				if ( $categories_list ) {
+					/* translators: categories list */
 					printf( '<span class="cat-links">' . __( '%1$s', 'amadeus' ) . '</span>', $categories_list );
 				}
 			}
@@ -122,6 +125,7 @@ if ( ! function_exists( 'amadeus_entry_footer' ) ) :
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', __( ', ', 'amadeus' ) );
 			if ( $tags_list ) {
+				/* translators: tags list */
 				printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'amadeus' ) . '</span>', $tags_list );
 			}
 		}
@@ -141,16 +145,22 @@ if ( ! function_exists( 'the_archive_title' ) ) :
 	 */
 	function the_archive_title( $before = '', $after = '' ) {
 		if ( is_category() ) {
+			/* translators: archive category */
 			$title = sprintf( __( 'Category: %s', 'amadeus' ), single_cat_title( '', false ) );
 		} elseif ( is_tag() ) {
+			/* translators: archive tag */
 			$title = sprintf( __( 'Tag: %s', 'amadeus' ), single_tag_title( '', false ) );
 		} elseif ( is_author() ) {
+			/* translators: archive author */
 			$title = sprintf( __( 'Author: %s', 'amadeus' ), '<span class="vcard">' . get_the_author() . '</span>' );
 		} elseif ( is_year() ) {
+			/* translators: archive year */
 			$title = sprintf( __( 'Year: %s', 'amadeus' ), get_the_date( _x( 'Y', 'yearly archives date format', 'amadeus' ) ) );
 		} elseif ( is_month() ) {
+			/* translators: archive month  */
 			$title = sprintf( __( 'Month: %s', 'amadeus' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'amadeus' ) ) );
 		} elseif ( is_day() ) {
+			/* translators: archive date */
 			$title = sprintf( __( 'Day: %s', 'amadeus' ), get_the_date( _x( 'F j, Y', 'daily archives date format', 'amadeus' ) ) );
 		} elseif ( is_tax( 'post_format' ) ) {
 			if ( is_tax( 'post_format', 'post-format-aside' ) ) {
@@ -173,6 +183,7 @@ if ( ! function_exists( 'the_archive_title' ) ) :
 				$title = _x( 'Chats', 'post format archive title', 'amadeus' );
 			}
 		} elseif ( is_post_type_archive() ) {
+			/* translators: Archive title */
 			$title = sprintf( __( 'Archives: %s', 'amadeus' ), post_type_archive_title( '', false ) );
 		} elseif ( is_tax() ) {
 			$tax = get_taxonomy( get_queried_object()->taxonomy );
@@ -180,7 +191,7 @@ if ( ! function_exists( 'the_archive_title' ) ) :
 			$title = sprintf( __( '%1$s: %2$s', 'amadeus' ), $tax->labels->singular_name, single_term_title( '', false ) );
 		} else {
 			$title = __( 'Archives', 'amadeus' );
-		}
+		}// End if().
 
 		/**
 		 * Filter the archive title.
@@ -228,7 +239,8 @@ endif;
  * @return bool
  */
 function amadeus_categorized_blog() {
-	if ( false === ( $all_the_cool_cats = get_transient( 'amadeus_categories' ) ) ) {
+	$all_the_cool_cats = get_transient( 'amadeus_categories' );
+	if ( false === $all_the_cool_cats ) {
 		// Create an array of all the categories that are attached to posts.
 		$all_the_cool_cats = get_categories( array(
 			'fields'     => 'ids',

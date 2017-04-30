@@ -26,7 +26,13 @@
 		<?php if ( has_nav_menu( 'social' ) ) : ?>
 		<nav class="social-navigation clearfix">
 			<div class="container">
-				<?php wp_nav_menu( array( 'theme_location' => 'social', 'link_before' => '<span class="screen-reader-text">', 'link_after' => '</span>', 'menu_class' => 'menu clearfix', 'fallback_cb' => false ) ); ?>
+				<?php wp_nav_menu( array(
+					'theme_location' => 'social',
+					'link_before' => '<span class="screen-reader-text">',
+					'link_after' => '</span>',
+					'menu_class' => 'menu clearfix',
+					'fallback_cb' => false,
+				) ); ?>
 			</div>
 		</nav>
 		<?php endif; ?>	
@@ -34,7 +40,10 @@
 		<?php if ( get_theme_mod( 'menu_position', 'below' ) == 'above' ) : ?>
 		<nav id="site-navigation" class="main-navigation menu-above" role="navigation">
 			<div class="container">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<?php wp_nav_menu( array(
+				'theme_location' => 'primary',
+				'menu_id' => 'primary-menu',
+			) ); ?>
 			</div>
 		</nav><!-- #site-navigation -->
 		<nav class="mobile-nav"></nav>
@@ -46,7 +55,8 @@
 					<?php
 					if ( function_exists( 'the_custom_logo' ) && ( get_theme_mod( 'logo_style', 'hide-title' ) == 'hide-title' ) ) {
 						the_custom_logo();
-					} /* Logo + site title and site description */
+					} // End if().
+
 					elseif ( function_exists( 'the_custom_logo' ) && ( get_theme_mod( 'logo_style', 'hide-title' ) == 'show-title' ) ) {
 						the_custom_logo();
 
@@ -70,7 +80,10 @@
 		<?php if ( get_theme_mod( 'menu_position', 'below' ) == 'below' ) : ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="container">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<?php wp_nav_menu( array(
+				'theme_location' => 'primary',
+				'menu_id' => 'primary-menu',
+			) ); ?>
 			</div>
 		</nav><!-- #site-navigation -->
 		<nav class="mobile-nav"></nav>

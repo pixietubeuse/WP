@@ -14,8 +14,14 @@ class Amadeus_About extends WP_Widget {
 	 * Amadeus_About constructor.
 	 */
 	public function __construct() {
-		$widget_ops  = array( 'classname' => 'amadeus_about', 'description' => __( 'About me widget.', 'amadeus' ) );
-		$control_ops = array( 'width' => 400, 'height' => 350 );
+		$widget_ops  = array(
+			'classname' => 'amadeus_about',
+			'description' => __( 'About me widget.', 'amadeus' ),
+		);
+		$control_ops = array(
+			'width' => 400,
+			'height' => 350,
+		);
 		parent::__construct( 'amadeus_about', __( 'Amadeus: About me', 'amadeus' ), $widget_ops, $control_ops );
 	}
 
@@ -83,7 +89,11 @@ class Amadeus_About extends WP_Widget {
 	 * @param array $instance The widget options.
 	 */
 	public function form( $instance ) {
-		$instance  = wp_parse_args( (array) $instance, array( 'title' => '', 'text' => '', 'image_url' => '' ) );
+		$instance  = wp_parse_args( (array) $instance, array(
+			'title' => '',
+			'text' => '',
+			'image_url' => '',
+		) );
 		$title     = strip_tags( $instance['title'] );
 		$text      = esc_textarea( $instance['text'] );
 		$image_url = esc_url( $instance['image_url'] );
